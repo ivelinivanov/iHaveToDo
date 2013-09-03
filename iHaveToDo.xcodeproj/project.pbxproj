@@ -15,13 +15,27 @@
 		5506EFEF17CF503800E06860 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5506EFEE17CF503800E06860 /* AppDelegate.m */; };
 		5506EFF217CF503800E06860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5506EFF017CF503800E06860 /* Main.storyboard */; };
 		5506EFF517CF503900E06860 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5506EFF417CF503900E06860 /* MasterViewController.m */; };
-		5506EFF817CF503900E06860 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5506EFF717CF503900E06860 /* DetailViewController.m */; };
 		5506EFFA17CF503900E06860 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5506EFF917CF503900E06860 /* Images.xcassets */; };
 		5506F00117CF503900E06860 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5506F00017CF503900E06860 /* XCTest.framework */; };
 		5506F00217CF503900E06860 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5506EFDE17CF503800E06860 /* Foundation.framework */; };
 		5506F00317CF503900E06860 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5506EFE217CF503800E06860 /* UIKit.framework */; };
 		5506F00B17CF503900E06860 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5506F00917CF503900E06860 /* InfoPlist.strings */; };
 		5506F00D17CF503900E06860 /* iHaveToDoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5506F00C17CF503900E06860 /* iHaveToDoTests.m */; };
+		5506F01817CF570800E06860 /* CreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5506F01717CF570800E06860 /* CreateViewController.m */; };
+		5506F02417CF900900E06860 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5506F02317CF900900E06860 /* CoreData.framework */; };
+		5506F02717CFAD8A00E06860 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5506F02517CFAD8A00E06860 /* Icon.png */; };
+		5506F02817CFAD8A00E06860 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5506F02617CFAD8A00E06860 /* Icon@2x.png */; };
+		55FEF5E317D0E203005D3EA1 /* SoundsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FEF5E217D0E203005D3EA1 /* SoundsTableViewController.m */; };
+		55FEF5E717D0EB25005D3EA1 /* Decided.caf in Resources */ = {isa = PBXBuildFile; fileRef = 55FEF5E417D0EB25005D3EA1 /* Decided.caf */; };
+		55FEF5E817D0EB25005D3EA1 /* Arp.caf in Resources */ = {isa = PBXBuildFile; fileRef = 55FEF5E517D0EB25005D3EA1 /* Arp.caf */; };
+		55FEF5E917D0EB25005D3EA1 /* AngryLaser.caf in Resources */ = {isa = PBXBuildFile; fileRef = 55FEF5E617D0EB25005D3EA1 /* AngryLaser.caf */; };
+		55FEF5EB17D0ED19005D3EA1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FEF5EA17D0ED19005D3EA1 /* AudioToolbox.framework */; };
+		55FEF5F217D0F085005D3EA1 /* Pizzicato.caf in Resources */ = {isa = PBXBuildFile; fileRef = 55FEF5EC17D0F078005D3EA1 /* Pizzicato.caf */; };
+		55FEF5F317D0F08A005D3EA1 /* HappyJump.caf in Resources */ = {isa = PBXBuildFile; fileRef = 55FEF5ED17D0F078005D3EA1 /* HappyJump.caf */; };
+		55FEF5F417D0F08D005D3EA1 /* Chafing.caf in Resources */ = {isa = PBXBuildFile; fileRef = 55FEF5EE17D0F078005D3EA1 /* Chafing.caf */; };
+		55FEF5F517D0F08F005D3EA1 /* AttentionSeeker.caf in Resources */ = {isa = PBXBuildFile; fileRef = 55FEF5EF17D0F078005D3EA1 /* AttentionSeeker.caf */; };
+		55FEF5F617D0F092005D3EA1 /* Arrogant.caf in Resources */ = {isa = PBXBuildFile; fileRef = 55FEF5F017D0F078005D3EA1 /* Arrogant.caf */; };
+		55FEF5F717D0F095005D3EA1 /* Ache.caf in Resources */ = {isa = PBXBuildFile; fileRef = 55FEF5F117D0F078005D3EA1 /* Ache.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,14 +62,29 @@
 		5506EFF117CF503800E06860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5506EFF317CF503900E06860 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		5506EFF417CF503900E06860 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		5506EFF617CF503900E06860 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		5506EFF717CF503900E06860 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		5506EFF917CF503900E06860 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5506EFFF17CF503900E06860 /* iHaveToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHaveToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5506F00017CF503900E06860 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5506F00817CF503900E06860 /* iHaveToDoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iHaveToDoTests-Info.plist"; sourceTree = "<group>"; };
 		5506F00A17CF503900E06860 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5506F00C17CF503900E06860 /* iHaveToDoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iHaveToDoTests.m; sourceTree = "<group>"; };
+		5506F01617CF570800E06860 /* CreateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateViewController.h; sourceTree = "<group>"; };
+		5506F01717CF570800E06860 /* CreateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateViewController.m; sourceTree = "<group>"; };
+		5506F02317CF900900E06860 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5506F02517CFAD8A00E06860 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		5506F02617CFAD8A00E06860 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		55FEF5E117D0E203005D3EA1 /* SoundsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundsTableViewController.h; sourceTree = "<group>"; };
+		55FEF5E217D0E203005D3EA1 /* SoundsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundsTableViewController.m; sourceTree = "<group>"; };
+		55FEF5E417D0EB25005D3EA1 /* Decided.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Decided.caf; sourceTree = "<group>"; };
+		55FEF5E517D0EB25005D3EA1 /* Arp.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arp.caf; sourceTree = "<group>"; };
+		55FEF5E617D0EB25005D3EA1 /* AngryLaser.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AngryLaser.caf; sourceTree = "<group>"; };
+		55FEF5EA17D0ED19005D3EA1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		55FEF5EC17D0F078005D3EA1 /* Pizzicato.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pizzicato.caf; sourceTree = "<group>"; };
+		55FEF5ED17D0F078005D3EA1 /* HappyJump.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HappyJump.caf; sourceTree = "<group>"; };
+		55FEF5EE17D0F078005D3EA1 /* Chafing.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chafing.caf; sourceTree = "<group>"; };
+		55FEF5EF17D0F078005D3EA1 /* AttentionSeeker.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AttentionSeeker.caf; sourceTree = "<group>"; };
+		55FEF5F017D0F078005D3EA1 /* Arrogant.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arrogant.caf; sourceTree = "<group>"; };
+		55FEF5F117D0F078005D3EA1 /* Ache.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ache.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FEF5EB17D0ED19005D3EA1 /* AudioToolbox.framework in Frameworks */,
+				5506F02417CF900900E06860 /* CoreData.framework in Frameworks */,
 				5506EFE117CF503800E06860 /* CoreGraphics.framework in Frameworks */,
 				5506EFE317CF503800E06860 /* UIKit.framework in Frameworks */,
 				5506EFDF17CF503800E06860 /* Foundation.framework in Frameworks */,
@@ -104,6 +135,8 @@
 		5506EFDD17CF503800E06860 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				55FEF5EA17D0ED19005D3EA1 /* AudioToolbox.framework */,
+				5506F02317CF900900E06860 /* CoreData.framework */,
 				5506EFDE17CF503800E06860 /* Foundation.framework */,
 				5506EFE017CF503800E06860 /* CoreGraphics.framework */,
 				5506EFE217CF503800E06860 /* UIKit.framework */,
@@ -120,10 +153,11 @@
 				5506EFF017CF503800E06860 /* Main.storyboard */,
 				5506EFF317CF503900E06860 /* MasterViewController.h */,
 				5506EFF417CF503900E06860 /* MasterViewController.m */,
-				5506EFF617CF503900E06860 /* DetailViewController.h */,
-				5506EFF717CF503900E06860 /* DetailViewController.m */,
-				5506EFF917CF503900E06860 /* Images.xcassets */,
+				5506F01617CF570800E06860 /* CreateViewController.h */,
+				5506F01717CF570800E06860 /* CreateViewController.m */,
 				5506EFE517CF503800E06860 /* Supporting Files */,
+				55FEF5E117D0E203005D3EA1 /* SoundsTableViewController.h */,
+				55FEF5E217D0E203005D3EA1 /* SoundsTableViewController.m */,
 			);
 			path = iHaveToDo;
 			sourceTree = "<group>";
@@ -131,6 +165,18 @@
 		5506EFE517CF503800E06860 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				55FEF5EC17D0F078005D3EA1 /* Pizzicato.caf */,
+				55FEF5ED17D0F078005D3EA1 /* HappyJump.caf */,
+				55FEF5EE17D0F078005D3EA1 /* Chafing.caf */,
+				55FEF5EF17D0F078005D3EA1 /* AttentionSeeker.caf */,
+				55FEF5F017D0F078005D3EA1 /* Arrogant.caf */,
+				55FEF5F117D0F078005D3EA1 /* Ache.caf */,
+				55FEF5E417D0EB25005D3EA1 /* Decided.caf */,
+				55FEF5E517D0EB25005D3EA1 /* Arp.caf */,
+				55FEF5E617D0EB25005D3EA1 /* AngryLaser.caf */,
+				5506F02517CFAD8A00E06860 /* Icon.png */,
+				5506F02617CFAD8A00E06860 /* Icon@2x.png */,
+				5506EFF917CF503900E06860 /* Images.xcassets */,
 				5506EFE617CF503800E06860 /* iHaveToDo-Info.plist */,
 				5506EFE717CF503800E06860 /* InfoPlist.strings */,
 				5506EFEA17CF503800E06860 /* main.m */,
@@ -204,6 +250,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = MentorMate;
 				TargetAttributes = {
+					5506EFDA17CF503800E06860 = {
+						DevelopmentTeam = M352RPT82H;
+					};
 					5506EFFE17CF503900E06860 = {
 						TestTargetID = 5506EFDA17CF503800E06860;
 					};
@@ -233,9 +282,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FEF5F217D0F085005D3EA1 /* Pizzicato.caf in Resources */,
+				55FEF5E817D0EB25005D3EA1 /* Arp.caf in Resources */,
+				5506F02717CFAD8A00E06860 /* Icon.png in Resources */,
+				55FEF5F317D0F08A005D3EA1 /* HappyJump.caf in Resources */,
 				5506EFFA17CF503900E06860 /* Images.xcassets in Resources */,
 				5506EFE917CF503800E06860 /* InfoPlist.strings in Resources */,
+				55FEF5E717D0EB25005D3EA1 /* Decided.caf in Resources */,
+				55FEF5F417D0F08D005D3EA1 /* Chafing.caf in Resources */,
+				55FEF5F617D0F092005D3EA1 /* Arrogant.caf in Resources */,
+				55FEF5F517D0F08F005D3EA1 /* AttentionSeeker.caf in Resources */,
 				5506EFF217CF503800E06860 /* Main.storyboard in Resources */,
+				55FEF5E917D0EB25005D3EA1 /* AngryLaser.caf in Resources */,
+				5506F02817CFAD8A00E06860 /* Icon@2x.png in Resources */,
+				55FEF5F717D0F095005D3EA1 /* Ache.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,9 +315,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5506EFEF17CF503800E06860 /* AppDelegate.m in Sources */,
+				55FEF5E317D0E203005D3EA1 /* SoundsTableViewController.m in Sources */,
 				5506EFF517CF503900E06860 /* MasterViewController.m in Sources */,
+				5506F01817CF570800E06860 /* CreateViewController.m in Sources */,
 				5506EFEB17CF503800E06860 /* main.m in Sources */,
-				5506EFF817CF503900E06860 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,10 +441,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iHaveToDo/iHaveToDo-Prefix.pch";
 				INFOPLIST_FILE = "iHaveToDo/iHaveToDo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -393,10 +457,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iHaveToDo/iHaveToDo-Prefix.pch";
 				INFOPLIST_FILE = "iHaveToDo/iHaveToDo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -460,6 +527,7 @@
 				5506F01217CF503900E06860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5506F01317CF503900E06860 /* Build configuration list for PBXNativeTarget "iHaveToDoTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +536,7 @@
 				5506F01517CF503900E06860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

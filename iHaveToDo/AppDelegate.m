@@ -43,4 +43,16 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+-(void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
+{
+    NSLog(@"Here");
+    UILocalNotification *newNotification = notification;
+    notification.fireDate = [NSDate dateWithTimeInterval:3600 sinceDate:notification.fireDate];
+    notification.repeatInterval = 0;
+    
+    [[UIApplication sharedApplication] scheduleLocalNotification:newNotification];
+
+}
+
+
 @end
